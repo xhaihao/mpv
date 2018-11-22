@@ -223,6 +223,7 @@ static int demux_rawvideo_open(demuxer_t *demuxer, enum demux_check check)
         case MKTAG('Y', 'V', '1', '2'):
         case MKTAG('I', '4', '2', '0'):
         case MKTAG('I', 'Y', 'U', 'V'):
+        case MKTAG('N', 'V', '1', '2'):
             bpp = 12;
             break;
         case MKTAG('U', 'Y', 'V', 'Y'):
